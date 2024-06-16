@@ -1,0 +1,19 @@
+{
+    "name": "thaariqdev/exam-oms-thaariqprasetia-01",
+    "type": "project",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "thaariqdev",
+            "email": "muhammad.thaariq@sirclo.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/product-thaariqp-graphql/registration.php"
+        ],
+        "psr-4": {
+            "Icube\\ThaariqExam\\": "src/product-thaariqp-graphql"
+        }
+    }
+}
